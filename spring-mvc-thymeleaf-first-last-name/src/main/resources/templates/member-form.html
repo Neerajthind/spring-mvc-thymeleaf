@@ -34,6 +34,14 @@
 
     <br><br>
 
+    Subscription Plan:
+
+    <input type="radio" th:field="*{subPlan}" th:value="Basic">Basic</input>
+    <input type="radio" th:field="*{subPlan}" th:value="Standard">Standard</input>
+    <input type="radio" th:field="*{subPlan}" th:value="Premium">Premium</input>
+    
+    <br><br>
+
     <input type="submit" value="Submit" />
 
 </form>
