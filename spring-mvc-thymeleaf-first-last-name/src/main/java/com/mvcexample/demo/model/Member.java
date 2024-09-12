@@ -7,6 +7,7 @@ public class Member {
     private String firstName; 
     private String lastName;
     private String email;
+    private String contactMethod;
 
 
     // define constructor
@@ -37,5 +38,13 @@ public class Member {
 
     public void setEmail(String email){
         this.email = email;
+    }
+
+    public String getContactMethod(){
+        return contactMethod;
+    }
+
+    public void setContactMethod(String contactMethod){
+        this.contactMethod = contactMethod;
     }
 }

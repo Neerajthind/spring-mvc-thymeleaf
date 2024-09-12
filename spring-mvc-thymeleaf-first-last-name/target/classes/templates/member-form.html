@@ -22,6 +22,18 @@
 
     <br><br>
 
+    Preferred Contact: 
+
+    <select th:field="*{contactMethod}">
+
+        <option th:value="Email">Email</option>
+        <option th:value="Phone">Phone</option>
+        <option th:value="TextMessage">TextMessage</option>
+
+    </select>
+
+    <br><br>
+
     <input type="submit" value="Submit" />
 
 </form>
