@@ -9,6 +9,7 @@ public class Member {
     private String email;
     private String contactMethod;
     private String subPlan;
+    private String fitnessGoals;
 
 
     // define constructor
@@ -56,4 +57,13 @@ public class Member {
     public void setSubPlan(String subPlan){
         this.subPlan = subPlan;
     }
+
+    public String getFitnessGoals(){
+        return fitnessGoals;
+    }
+
+    public void setFitnessGoals(String fitnessGoals){
+        this.fitnessGoals = fitnessGoals;
+    }
+
 }
