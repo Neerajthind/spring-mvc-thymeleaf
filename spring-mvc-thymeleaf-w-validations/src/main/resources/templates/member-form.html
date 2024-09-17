@@ -39,6 +39,25 @@
 
     <br><br>
 
+    How motivated are you to achieve your fitness goals (*) (0-10)
+    <input type="text" th:field="*{fitnessGoal}">
+
+    <!-- Below is a error message for fitnessGoal-->
+    <span th:if="${#fields.hasErrors('fitnessGoal')}"
+          th:errors = '*{fitnessGoal}'
+          class="error"></span>
+
+    <br><br>
+
+    MembershipId (*): <input type="text" th:field="*{membershipId}">
+
+    <!-- Below is an error message for membershipId-->
+    <span th:if="${#fields.hasErrors('membershipId')}"
+          th:errors = '*{membershipId}'
+          class="error"></span>
+
+    <br><br>
+
     <input type="submit" value="Submit">
 
 
