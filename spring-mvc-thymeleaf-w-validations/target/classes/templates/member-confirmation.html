@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Member Confirmation</title>
+</head>
+<body>
+
+The member is confirmed: <span th:text="|${member.firstName} ${member.lastName}|"></span>
+
+<br><br>
+
+Email confirmed: <span th:text="${member.email}"></span>
+
+</body>
+</html>
